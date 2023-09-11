@@ -1,0 +1,100 @@
+/* Style for the body element */
+body {
+    font-family: Arial, sans-serif;
+    background-color: hwb(61 55% 4%);
+    margin: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vh auto;
+    height: 50vh auto;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for the main container */
+section {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 2%;
+    background-color: #c5b950;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the main heading */
+h1.myPage {
+    color: #333;
+    font-size: 28px;
+    text-align: center;
+}
+
+/* Style for the subheading */
+h2[data-testid="slackUserName"] {
+    color: #555;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for the image container */
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style for the image */
+img[data-testid="slackDisplayImage"] {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Style for the track paragraph */
+p[data-testid="myTrack"] {
+    color: #007bff;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Style for the time and day containers */
+.time-container,
+.day-container,
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    background-color: #c5b950;
+}
+
+/* Style for the time and day icons */
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Style for the time and day text */
+span#time,
+span#day {
+    font-size: 18px;
+}
+
+/* Style for the GitHub link */
+a[data-testid="githubURL"] {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #860ace;
+    text-decoration: none;
+}
+
+a[data-testid="githubURL"]:hover {
+    text-decoration: underline;
+}

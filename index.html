@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTC Time Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+</head>
+
+<body>
+    <section>
+        <h1 class="myPage">Adegoroye Adetiloye</h1>
+
+        <h2 data-testid="slackUserName">Slack: @Tiloye
+        </h2>
+
+
+        <p data-testid="myTrack">Frontend Development
+        </p>
+
+
+
+        <!-- Slack Display Picture -->
+        <div class="image-container">
+            <img src="./image1.jpeg" alt="Your Slack Username" data-testid="slackDisplayImage" width="200" height="250">
+        </div>
+
+        <!-- Track -->
+
+
+        <div class="time-container">
+            <div class="icon">
+                <div class="time" data-testid="utc-time">
+                    <i class="fas fa-clock"></i><span id="time"></span>
+                </div>
+            </div>
+        </div>
+        <div class="day-container">
+            <div class="icon">
+                <div class="day" data-testid="day-of-week">
+                    <i class="fas fa-calendar"></i> <span id="day"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- GitHub URL -->
+        <div class="icon-container">
+            <div class="icon">
+                <i class="fab fa-github"></i><a href="https://github.com/yourusername/your-repo" target="_blank"
+                    rel="noopener noreferrer" data-testid="githubURL">Source code</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
